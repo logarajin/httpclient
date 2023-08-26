@@ -1,0 +1,8 @@
+spring:
+ application:
+  name: eureka
+server:
+  port: 8081  
+trust:
+    store: classpath:keystore/springboot.p12
+    store.password: password
